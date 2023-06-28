@@ -1,0 +1,108 @@
+CSS:-
+<stylE>
+    CSS code to style the navigation bar and sections:
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('sarhak\ shaddi.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.about {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 24px;
+    color: #666;
+}
+
+.search {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.search h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search label {
+    font-size: 24px;
+    color: #333;
+    margin-right: 20px;
+}
+
+.search input,
+.search select {
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.search input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search input[type="submit"]:hover {
+    background-color: #555;
+}
+</stylE>
